@@ -41,7 +41,7 @@ module.exports = {
 			template: 'index.html',
         }),
         new webpack.DefinePlugin({
-            OAUTH: process.env.OAUTH
+            OAUTH: JSON.stringify(process.env.OAUTH)
         }),
         new webpack.HotModuleReplacementPlugin()
     ]
