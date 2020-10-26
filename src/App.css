@@ -2,6 +2,12 @@
 ul li{
     list-style-type: disc;
 }
+img {
+    padding: 10px;
+}
+.title {
+    display: flex;
+}
 
 .flex {
     display: flex;
