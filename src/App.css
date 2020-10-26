@@ -1,0 +1,29 @@
+
+ul li{
+    list-style-type: disc;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.container li {
+    flex: 1
+}
+
+.container h1 {
+    flex: 1;
+}
+
+#circle {
+    list-style-type: circle;
+    display:list-item;
+    padding: 2px
+}
